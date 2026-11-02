@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <center>
+    <div class="container">
+       <div class=" header"></div>
+       <br>
+       <img src="http://tse3.mm.bing.net/th/id/OIP.MNxX8Bt-JGv4YGpExnnHqgHaCN?r=0&pid=Api&h=220&P=0" alt="Logo" width="200px" class="aptech-logo">
+       <h2 style="color: red;">Students  Registration Form</h2> 
+       <pre></pre>     
+       <form action="">
+       <div class="form-row">
+        <div class="form-group">
+            <label for=" Full Name">Name</label>
+            <input type="text" id="Name" name="Name" required placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <label for="email adress">Email</label>
+            <input type="email" id="email" name="email"required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="Password" id="Password">
+        </div>
+        <div class="form-group">
+            <label for="Date of birth">Date of birth</label>
+            <input type="date" name="date" id="date" required>       
+        </div>
+        <div class="form-group">
+            <label for="Gender">Gender</label>
+            <label><input type="radio" name="gender">Male</label>
+            <label><input type="radio" name="gender"> Female</label>
+            <label><input type="radio" name="gender"> Other</label>
+        </div>
+        <div class="form-group">
+            <label for="Select course">Select Course</label>
+             <select>
+               <div><option>ADSE</option></div>
+                <option>HDSE</option>
+                <option>Web Developmet</option>
+             </select> 
+        </div>
+        <div class="form-group">
+         <label for="Skills">Skills</label>
+         <label><input type="checkbox">HTML</label>
+         <label><input type="checkbox">CSS</label>
+         <label><input type="checkbox">JAVA SCRIPT</label>
+        </div>
+        </div>
+        <div class="form-group">
+            <label>Aout yourself</label>
+            <textarea rows="4"></textarea>
+        </div>
+        <div class="form-group">
+            <label><input type="checkbox"required>I Accept Terms and Conditions</label>
+        </div>
+        <div class="form-row">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+        
+       </div>
+       </form>
+    </div>
+    </center>
+</body>
+</html>
